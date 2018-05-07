@@ -1,0 +1,8 @@
+ <div class="card-group__row">
+ <link inline rel="stylesheet" type="text/css" href="styles/widget.css">
+{% for card in section.cards %}
+<div class="card__group-item">          
+  {% include "partials/card.html" %}
+</div>            
+{% endfor %}
+</div> 
