@@ -1,0 +1,72 @@
+<?xml-stylesheet type="text/css" href="https://ig.ft.com/graphics/bloomberg-economics/chart-style.css" ?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 viewBox="0 0 300 276">
+<title>Property price growth in China</title>
+<desc>Annual % change</desc>
+<text class="chart-title" fill="#43423e" font-size="20" y="18">中国房价增幅</text>
+
+<text class="chart-subtitle" fill="#74736C" font-size="15" y="34">年同比变化%</text>
+
+<text class="chart-source" font-size="10" fill-opacity="0.4" y="269">来源: Thomson Reuters Datastream, 2016/02</text>
+
+<g transform="translate(1,62)">
+	<g transform="translate(0,152)" class="x axis">
+		<g transform="translate(0,20)">
+			<g transform="translate(0,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="-7.4" x2="0" y2="-2"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="12">2011</text>
+			</g>
+			<g transform="translate(26.15164256224513,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="-7.4" x2="0" y2="0.7"/>
+			</g>
+			<g transform="translate(82.44079430612193,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="-7.4" x2="0" y2="0.7"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="12">13</text>
+			</g>
+			<g transform="translate(138.57615055343078,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="-7.4" x2="0" y2="0.7"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="12">14</text>
+			</g>
+			<g transform="translate(194.7115068007396,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="-7.4" x2="0" y2="0.7"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="12">15</text>
+			</g>
+			<g transform="translate(250.84686304804842,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="-7.4" x2="0" y2="0.7"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="12">16</text>
+			</g>
+		</g>
+	</g>
+	<g transform="translate(253,0)" class="y axis">
+
+		<g transform="translate(0,152)">
+			<line shape-rendering="crispEdges" fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="17" y1="12.9" x2="-253" y2="12.9"/>
+			<text fill-opacity="0.6" font-size="12" x="4" y="5">-5</text>
+		</g>
+		<g transform="translate(0,114)">
+			<line shape-rendering="crispEdges" fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="17" y1="9.7" x2="-253" y2="9.7"/>
+			<text fill-opacity="0.6" font-size="12" x="5" y="5">0</text>
+		</g>
+		<g transform="translate(0,76)">
+			<line shape-rendering="crispEdges" fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="17" y1="6.4" x2="-253" y2="6.4"/>
+			<text fill-opacity="0.6" font-size="12" x="5" y="5">5</text>
+		</g>
+		<g transform="translate(0,38)">
+			<line shape-rendering="crispEdges" fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="17" y1="3.2" x2="-253" y2="3.2"/>
+			<text fill-opacity="0.6" font-size="12" >10</text>
+		</g>
+		<g transform="translate(0,0)">
+			<line shape-rendering="crispEdges" fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="17" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12" >15</text>
+		</g>
+
+	</g>
+	<g>
+		<path fill="none" stroke="#AF516C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M0,46.2l4.8-4.8l4.8,10.1
+			L14,62.9l4.9,14.2l4.6,11.4l4.5,13.3l5.1,11.5l4.5,9l4.5,8.7l4.9,11.1l4.8,1.6l4.3,0.1l5.1-1.7l4.6-2.6l4.8-3.7l4.8-7.9l4.5-4.3
+			l4.9-9.6l4.8-10.6l4.3-11.7l4.8-11.9l4.6-12.9l4.6-4.1l4.8-4.5l4.8-5.5l4.5-7.2l4.9-10l4.8-2.5l4.3-4.3l5.1,3.4l4.6,2.6l4.3,6.1
+			l4.9,8.1l4.6,10.1l4.5,11.2l4.9,14.6l4.8,12.9l4.8,16.8l4.6,13.5l4.6,8.6l4.8,9.2l4.8,3.3l4.5,6.2l4.3,4.2l5.1,0.9l4.6-6l4.8-8.5
+			l4.6-10.9l4.6-12.6l4.9-10l4.6-5.9l4.5-7.1l4.9-10.1l4.8-1.8"/>
+	</g>
+</g>
+</svg>

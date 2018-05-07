@@ -1,0 +1,197 @@
+<?xml-stylesheet type="text/css" href="https://ig.ft.com/graphics/bloomberg-economics/chart-style.css" ?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 276">
+<title>China labour demand index</title>
+<desc>Index above 50 indicates growth from previous month</desc>
+
+<text class="chart-title" fill="#43423e" font-size="20" y="22">中国劳动力需求指数</text>
+
+<text class="chart-subtitle" fill="#74736C" font-size="15" y="42">50以上的指数表示环比增长</text>
+
+<text class="chart-source" font-size="10" fill-opacity="0.4" y="269">来源: FT Confidential Research, 2016/02/02</text>
+
+<g transform="translate(1,62)">
+	<g transform="translate(0,152)" class="x axis">
+		<g transform="translate(0,0)">
+			<g transform="translate(0,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="20">6月</text>
+			</g>
+			<g transform="translate(6.693333333333333,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(13.609777777777778,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(20.526222222222223,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(27.219555555555555,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(34.145296296296294,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(40.83862962962963,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(47.755074074074074,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="7.5"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="20">1月</text>
+			</g>
+			<g transform="translate(54.67151851851852,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(60.91862962962963,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(67.82577777777777,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(74.5191111111111,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(81.43555555555555,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(88.12888888888888,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(95.04533333333333,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(101.96177777777777,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(108.65511111111111,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(115.58085185185186,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(122.27418518518519,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(129.19062962962963,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="7.5"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="20">1月</text>
+			</g>
+			<g transform="translate(136.10707407407406,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(142.3541851851852,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(149.26133333333334,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(155.95466666666667,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(162.8711111111111,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(169.56444444444446,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(176.4808888888889,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(183.39733333333334,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(190.09066666666666,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(197.0164074074074,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(203.70974074074076,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(210.6261851851852,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="7.5"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="20">1月</text>
+			</g>
+			<g transform="translate(217.54262962962963,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(223.78974074074074,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(230.69688888888888,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(237.39022222222223,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(244.30666666666667,0)">
+				<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" x1="0" y1="0" x2="0" y2="5"/>
+			</g>
+			<g transform="translate(251,0)">
+				<line fill="none" x1="0" y1="0" x2="0" y2="5"/>
+				<text fill-opacity="0.6" font-size="12" x="0" y="20">7月</text>
+			</g>
+		</g>
+		<g transform="translate(0,35)">
+			<g transform="translate(0,0)">
+				<text fill-opacity="0.6" font-size="12">2012</text>
+			</g>
+			<g transform="translate(47.755074074074074,0)">
+				<text fill-opacity="0.6" font-size="12">13</text>
+			</g>
+			<g transform="translate(129.19062962962963,0)">
+				<text fill-opacity="0.6" font-size="12">14</text>
+			</g>
+			<g transform="translate(210.6261851851852,0)">
+				<text fill-opacity="0.6" font-size="12">15</text>
+			</g>
+		</g>		
+	</g>
+	<g transform="translate(253,0)" class="y axis">
+		<g transform="translate(0,152)">
+			<line fill="none" stroke="#A7A59B" stroke-miterlimit="10" x1="19" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12">40</text>
+		</g>
+		<g transform="translate(0,121.60000000000001)">
+			<line fill="none" stroke="#A7A59B" stroke-miterlimit="10" x1="19" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12">50</text>
+		</g>
+		<g transform="translate(0,91.2)">
+			<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="19" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12">60</text>
+		</g>
+		<g transform="translate(0,60.800000000000004)">
+			<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="19" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12">70</text>
+		</g>
+		<g transform="translate(0,30.400000000000002)">
+			<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="19" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12">80</text>
+		</g>
+		<g transform="translate(0,0)">
+			<line fill="none" stroke="#CEC6B9" stroke-miterlimit="10" stroke-dasharray="1,2" x1="19" y1="0" x2="-253" y2="0"/>
+			<text fill-opacity="0.6" font-size="12">90</text>
+		</g>		
+	</g>
+	<g class="chart-key" transform="translate(0,-25)">
+		<g class="key-element" transform="translate(0,24)">
+			<text x="18" font-size="12" fill="#43423e">劳动力需求指数</text>
+			<line fill="none" stroke="#AF516C" stroke-width="2" x1="1" x2="15" y1="-5" y2="-5"/>
+		</g>
+		<g class="key-element" transform="translate(0,40)">
+			<text x="18" font-size="12" fill="#43423e">加班指数</text>
+			<line fill="none" stroke="#ECAFAF" stroke-width="2" x1="1" x2="15" y1="-5" y2="-5"/>
+		</g>
+	</g>
+	<g>
+		<path fill="none" stroke="#ECAFAF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M0,109.7l6.7-8.5l6.9,3.6
+			l6.9-6.1l6.7,15.2l6.9,9.7l6.7-17.3l6.9,23.4l6.9-15.2l6.2-3.6l6.9-2.1l6.7,10l6.9-0.6l6.7,3.3l6.9-8.5l6.9,0.9l6.7-1.5l6.9-9.1
+			l6.7-2.1l6.9,12.5l6.9-6.4l6.2-12.5l6.9-9.4l6.7,5.5l6.9-1.8l6.7,7l6.9-16.1l6.9-5.2l6.7,2.1l6.9,6.4l6.7-14.9l6.9,1.2l6.9,4.9
+			l6.2-24.3l6.9-23.1l6.7,57.8l6.9,13.4l6.7,25.5"/>
+		<path fill="none" stroke="#AF516C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M0,62.9l6.7,17.9
+			l6.9,15.8l6.9-14.6l6.7,4.6l6.9-2.1l6.7,21l6.9-0.6l6.9-36.2l6.2-4.9l6.9,24.6l6.7-3l6.9,10l6.7-2.7l6.9-3.6l6.9,9.7l6.7-13.1
+			l6.9,5.5l6.7-1.2l6.9,16.1l6.9-24l6.2-7.3l6.9-8.5l6.7,1.5l6.9,7l6.7,8.8l6.9-17.3l6.9,8.5l6.7,3l6.9,4.3l6.7-4l6.9,22.8l6.9,7.6
+			l6.2-52.6l6.9,2.1l6.7,23.1l6.9,2.1l6.7,41"/>		
+	</g>
+</g>
+</svg>
