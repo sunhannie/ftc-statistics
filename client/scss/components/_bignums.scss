@@ -1,0 +1,35 @@
+.headline-figs {
+	text-align: center;
+	margin-bottom: 20px;
+	.bignum-heading {
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.bignum {
+		font-size: 58px;
+		font-weight: 200;
+		display: inline-block;
+		span {
+			font-size: 44px;
+		}
+	}
+}
+
+.small-figs {
+	text-align: center;
+	margin-bottom: 8px;
+	font-weight: 200;
+
+	.small-figs-heading {
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.small-figs-value {
+		font-size: 36px;
+		display: inline-block;
+		span {
+			font-size: 21px;
+		}			
+	}
+}

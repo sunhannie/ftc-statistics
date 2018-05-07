@@ -1,0 +1,126 @@
+.o-header__nav-toggle {
+	box-sizing: border-box;
+	position: relative;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	outline: none;
+	cursor: pointer;
+	background: none;
+	display: block;
+	height: $o-header-bottom-height;
+	width: 100%;
+	line-height: $o-header-bottom-height;
+	text-align: center;
+
+	span {
+		vertical-align: middle;
+	}
+	// svg {
+	// 	width: 40px;
+	// 	height: 40px;
+	// 	fill: oColorsGetColorFor(o-header--light, text);
+	// 	display: inline-block;
+	// 	vertical-align: middle;
+	// }
+	&:after {
+		content: '';
+		// display: inline-block;
+		// width: 40px;
+		// height: 40px;
+		// vertical-align: middle;
+		// background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=ftchinese");
+		// background-repeat: no-repeat;
+		// background-position: center center;
+		// background-size: contain;
+		@include oIconsGetIcon(hamburger, $color: oColorsGetColorFor(o-header--light, text), $container-width: 40, $apply-base-styles: true, $apply-width-height: true, $iconset-version: 1);
+		vertical-align: middle;
+	}
+	&[aria-expanded="true"]:after {
+		// background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=ftchinese");
+		@include oIconsGetIcon(cross, $color: oColorsGetColorFor(o-header--light, text), $apply-base-styles: false, $apply-width-height: false);
+		
+	}
+
+	// .o-icons__hamburger {
+	// 	display: inline-block;
+	// }
+	// .o-icons__cross {
+	// 	display: none;
+	// }
+
+	// &[aria-expanded="true"] {
+	// 	.o-icons__hamburger {
+	// 		display: none;
+	// 	}
+	// 	.o-icons__cross {
+	// 		display: inline-block;
+	// 	}
+	// }
+}
+
+.o-header__nav {
+	box-sizing: border-box;
+	display: none;
+	padding: 0 6px;
+	margin: 0;
+	list-style-type: none;
+
+	@include oColorsFor(o-header-nav, background);
+	
+	.o-header--theme-light & {
+		@include oColorsFor(o-header-nav--light, background);
+	}
+
+	width: 50%;
+	@include oGridRespondTo(M) {
+		max-width: 50%;
+		width: $o-header-nav-width;
+	}
+	
+	&[aria-hidden="false"] {
+		display: block;
+		position: fixed;
+		top: $o-header-bottom-height;
+		right: 0;
+		bottom: 0;
+	}
+}
+
+.o-header__nav-item {
+	line-height: 34px;
+	border-bottom: 1px dotted oColorsGetColorFor(o-header-divider, border);
+
+	@include oGridRespondTo(M) {
+		margin-left: 0;
+		&.mobile {
+			display: none;
+		}
+	}
+
+	.o-header--theme-light & {
+		margin-bottom: 4px;
+		border-bottom: 1px dotted oColorsGetColorFor(o-header-divider--light, border);
+	}
+}
+.o-header__nav-link {
+	text-decoration: none;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	font-size: 16px;
+	display: block;
+	padding: 0 15px;
+	line-height: 38px;
+
+	@include oColorsFor(o-header-item, text);
+
+	.o-header--theme-light &{
+		@include oColorsFor(o-header-item--light, text);
+	}
+
+	&:hover,
+	&:focus {
+		color: oColorsGetColorFor(link-title-hover, text);
+	}
+}

@@ -1,49 +1,59 @@
-const debug = require('debug')('ag:server');
+const debug = require('debug');
+const error = debug('nums:app');
+const log = debug('nums:app');
+log.log = console.log.bind(console);
+const path = require('path');
 const Koa = require('koa');
 const app = new Koa();
 const Router = require('koa-router');
 const router = new Router();
 const logger = require('koa-logger');
-const uri = require('./util/uri.js');
-const home = require('./server/home.js');
-const stats = require('./server/stats');
+
+const model = require('./model');
+const envData = require('./server/env-data.js');
 const handleErrors = require('./server/handle-errors.js');
+const home = require('./server/home.js');
+const economy = require('./server/economy.js');
+const showUrls = require('./server/show-urls.js');
+const update = require('./server/update');
 const inlineAndMinify = require('./server/inline-min.js');
 
-const isProduction = process.env.NODE_ENV === 'production';
-const port = process.env.PORT || 4000;
+log('booting Numbers');
 
+const port = process.env.PORT || 3000;
 app.proxy = true;
+
+// App error logging
+app.on('error', function (err, ctx) {
+  error(err);
+});
+
 app.use(logger());
 
-debug(`Build dir: ${uri.chartDir}`);
-debug(`Public dir: ${uri.publicDir}`);
-debug(`isProduction: ${isProduction}`);
 if (process.env.NODE_ENV !== 'production') {
-  app.use(require('koa-static')(uri.publicDir));
+  app.use(require('koa-static')(path.resolve(process.cwd(), 'public')));
 }
 
 app.use(handleErrors);
-app.use(async function (ctx, next) {
-  ctx.state.env = {
-    isProduction,
-    iconPrefix: 'http://interactive.ftchinese.com/',
-    chartPrefix: isProduction ? 'http://ig.ftchinese.com/autograph' : ''
-  }
-  await next();
-});
+app.use(envData);
 app.use(inlineAndMinify);
 
 router.use('/', home.routes());
-router.use('/__stats', stats.routes());
+router.use('/economy', economy.routes());
+router.use('/urls', showUrls.routes());
+router.use('/__update', update.routes());
 
 app.use(router.routes());
 
+// Create server
 const server = app.listen(port);
-server.on('listening', () => {
-	debug(`Client listening on port ${port}`);
-});
+
 // Logging server error.
 server.on('error', (error) => {
-  debug(error);
+  error(error);
+});
+
+// Listening event handler
+server.on('listening', () => {
+  log(`App listening on port ${port}`);
 });

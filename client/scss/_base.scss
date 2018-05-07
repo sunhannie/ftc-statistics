@@ -1,0 +1,99 @@
+body {
+  font-family: "Helvetica Neue", "Lucida Grande", Verdana, "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Heiti SC", "Heiti TC", "WenQuanYi Micro Hei", "Microsoft YaHei", "Microsoft JhengHei", STHeiti, sans-serif;
+  margin: 0;
+  padding: 0;
+  @include oColorsFor(page);
+}
+
+.back-to-top {
+  box-sizing: border-box;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(164,170,180,.3);;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(164,170,180);
+  }
+  &:hover:after {
+    background-color: #000;
+  }
+  &:hover:before {
+    border-bottom-color: #000;
+  }
+  @include arrowUpwards(36, rgba(0,0,0,.2));
+}
+
+#site-content {
+  padding-top: $o-header-bottom-height;
+
+  .numbers-index & {
+    min-height: 50vh;
+  }
+}
+
+.homepage-nav {
+  ul {
+    font-size: 1.5em;
+  }
+  a {
+    text-decoration: none;
+    @include oColorsFor(link);
+  }
+  a:hover {
+    @include oColorsFor(link-hover);
+  }
+}
+// layout
+.o-grid-container {
+  @include oGridContainer;
+}
+.o-grid-row {
+	@include oGridRow;
+}
+
+.card__group {
+  padding-top: $o-header-bottom-height;
+}
+
+.bdr--teal {
+  border-left: 5px solid $ft-color-teal;
+}
+
+.bdr--pink {
+  border-left: 5px solid $ft-color-pink;
+}
+
+.bdr--orange {
+  border-left: 5px solid $ft-color-orange;
+}
+
+.bdr--green {
+  border-left: 5px solid $ft-color-green;
+}
+
+.bdr--dusk {
+  border-left: 5px solid $ft-color-dusk;
+}
+
+.bdr--purple {
+  border-left: 5px solid $ft-color-purple;
+}
+
+.bdr--brown {
+  border-left: 5px solid $ft-color-brown;
+}
+
+.bdr--grey {
+  border-left: 5px solid $ft-color-grey;
+}
+
+.bdr--blue {
+  border-left: 5px solid $ft-color-blue;
+}
+
+.bdr--cyan {
+  border-left: 5px solid $ft-color-cyan;
+}

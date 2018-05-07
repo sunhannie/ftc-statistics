@@ -1,0 +1,27 @@
+@import "o-colors/main";
+$o-grid-gutters: (
+	default: 10px,
+);
+@import "o-grid/main";
+@import "o-icons/main";
+
+@import "ftc-share/main";
+
+@import "scss/header/main";
+
+@import "scss/colors";
+@import "scss/var-mixins";
+@import "scss/base";
+
+@import "scss/components/articlehead";
+@import "scss/components/card";
+@import "scss/components/bignums";
+@import "scss/components/colorcoding";
+
+$o-footer-is-silent: false;
+@import "ftc-footer/main";
+
+@include oShareBase;
+@include oSharePreset($theme: 'light');
+
+
