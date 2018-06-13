@@ -27,6 +27,7 @@ class BerthaUrl {
  * @param {String} key - The key in `docs`
  * @param {Boolean} republish - `true` to purge cache. Default `false`
  * @return {String | Null} - Bertha url for each country or null..
+ * https://bertha.ig.ft.com/republish/publish/gss/1mzkZNKncQwrVuNw5GbwMYdY3rT54N8vaGXFEhjnJoJA/data,credits,groups,options
  */
   getOneFor(key, republish=false) {
     const id = this._docs[key];
